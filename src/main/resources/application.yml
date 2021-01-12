@@ -1,2 +1,15 @@
 server:
   port: 8081
+
+xxl:
+  job:
+    admin:
+      addresses: http://localhost:8080/xxl-job-admin
+    accessToken:
+    executor:
+      appname: xxl-job-executor-sample
+      address:
+      ip:
+      port: 8888
+      logpath: /Users/liyulong/IdeaProjects/xxl-job-executor-simple/logs
+      logretentiondays: 30
